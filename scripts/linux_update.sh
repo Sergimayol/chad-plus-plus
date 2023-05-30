@@ -1,3 +1,5 @@
+#!/bin/bash
+
 rm grammar/Parser.java
 rm grammar/ParserSym.java
 rm grammar/Scanner.java
