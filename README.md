@@ -6,9 +6,14 @@ Este lenguaje de programación a sido diseñado para crear un compilador para la
 
 ## Tecnologías utilizadas
 
-- [Java](https://www.java.com/es/) (>= 19)
+- [Java](https://www.java.com/es/)
 - [JFlex](https://jflex.de/)
 - [Cup](http://www2.cs.tum.edu/projects/cup/)
+
+## Requisitos
+
+- Java 19 o superior
+- Maven
 
 ## Documentación
 
