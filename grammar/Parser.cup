@@ -5,23 +5,23 @@
  * Curs: 2022 - 2023
  */
 
-package grammar;
+package com.chpp.grammar;
 
-import core.*;
-import core.Number;
-import errors.ErrorHandler;
-import errors.ErrorCode;
-import warnings.WarningCode;
-import warnings.WarningHandler;
-import utils.Phase;
+import com.chpp.core.*;
+import com.chpp.core.Number;
+import com.chpp.errors.ErrorHandler;
+import com.chpp.errors.ErrorCode;
+import com.chpp.warnings.WarningCode;
+import com.chpp.warnings.WarningHandler;
+import com.chpp.utils.Phase;
+import com.chpp.semantic.SemanticAnalyzer;
+import com.chpp.symbol_table.SymbolTable;
+import com.chpp.symbol_table.Symbol;
+import com.chpp.symbol_table.StructureType;
+import com.chpp.symbol_table.StructureReturnType;
+import com.chpp.core.TypeVar;
 import java.util.ArrayList;
 import java.util.List;
-import semantic.SemanticAnalyzer;
-import symbol_table.SymbolTable;
-import symbol_table.Symbol;
-import symbol_table.StructureType;
-import symbol_table.StructureReturnType;
-import core.TypeVar;
 
 class Parser;
 parser code {:

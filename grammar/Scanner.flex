@@ -5,12 +5,12 @@
  * Curs: 2022 - 2023
  */
 
-package grammar;
+package com.chpp.grammar;
 
+import com.chpp.errors.ErrorHandler;
+import com.chpp.errors.ErrorCode;
+import com.chpp.utils.Phase;
 import java_cup.runtime.ComplexSymbolFactory.ComplexSymbol;
-import errors.ErrorHandler;
-import errors.ErrorCode;
-import utils.Phase;
 import java.util.ArrayList;
 
 %%
